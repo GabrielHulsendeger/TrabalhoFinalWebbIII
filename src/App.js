@@ -7,7 +7,7 @@ import css from './app.module.css';
 import { getTotalPopulation} from './helpers/reduce-helpers';
 import { formatNumber} from './helpers/format-helpers';
 
-
+// criacao da classe app que será usada pelo index
 export default class App extends Component{
 constructor(){
   super();
