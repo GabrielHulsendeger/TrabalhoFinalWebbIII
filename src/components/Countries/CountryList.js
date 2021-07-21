@@ -22,9 +22,11 @@ export default class CountryList extends Component{
                     {data.map((item)=>{
                         const {id}=item;
                         return (
-                            <li className={css.Telas} key={id} >
+                            <div className={css.TelaBandeira} >
+                            <li  key={id} >
                                 <CountryItem item={item}/>
                                 </li>
+                                </div>
                         );
                     })}
                     </ul>

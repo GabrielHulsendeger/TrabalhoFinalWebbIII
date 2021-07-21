@@ -11,12 +11,16 @@ background-color: crimson;
     padding-left: 5%;
     padding-top: 5%;
     padding-right: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 
-    width: 50%;
-    border-bottom: hidden;
-    
-    
+    width: 30%;
+      
     
     }
+    .TelaBandeira{
+        float:left;
+        padding: 5%;
+    
+    }
+
     

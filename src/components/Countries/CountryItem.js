@@ -6,17 +6,17 @@ export default class CountryItem extends Component{
     render(){
         const{id,flag,name}=this.props.item;
         return(
-            <div  className={css.Tela} id={id}>
+            <div  className={css.Telas} id={id}>
 
 
 
-            <div className={css.TelaBandeira} >
+            <div  >
             <img  className={css.Bandeira} src={flag} alt={name}/>
-            </div>
+            
 
 
 
-            <div className={css.TelaTexto} >
+            <div  ></div>
            <h4 className={css.Texto}> {name}</h4>
            </div>
             </div>
