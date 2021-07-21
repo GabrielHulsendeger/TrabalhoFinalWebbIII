@@ -5,6 +5,7 @@ float: right;
 }
 .Bandeira{
 background-color: darkgreen;
+border-radius: 50%;
 
 width: 200px;
 
@@ -15,3 +16,17 @@ width: 50%;
 
 
 }
+
+.TelaBandeira{
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+
+}
+.TelaTexto{
+float: right;
+padding: 10px;
+overflow: hidden;
+
+}
+
