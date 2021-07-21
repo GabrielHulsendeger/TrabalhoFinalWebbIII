@@ -1,0 +1,17 @@
+.Texto{
+text-align: center;
+float: right;
+
+}
+.Bandeira{
+background-color: darkgreen;
+
+width: 200px;
+
+}
+.Telas{
+padding-left: 50%;
+width: 50%;
+
+
+}
